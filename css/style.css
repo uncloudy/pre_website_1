@@ -58,6 +58,30 @@ p {
   background-color: #f7c08a;
 }
 
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  color: #333;
+  background: #f7c08a;
+}
+
+.clr {
+  clear: both;
+}
+
 /* navbar */
 #navbar {
   background-color: #333;
@@ -115,4 +139,51 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info Styling */
+#home-info {
+  height: 450px;
+}
+
+#home-info .info-img {
+  float: left;
+  min-height: 100%;
+  width: 50%;
+  background: url("../img/photo-1.jpg") no-repeat;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* features */
+
+#features .box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+
+#features .box i {
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
