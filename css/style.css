@@ -84,6 +84,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 .box {
@@ -115,7 +116,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -190,14 +191,14 @@ p {
 
 /* features */
 
-#features .box {
+.box {
   float: left;
   width: 33.3%;
   text-align: center;
   padding: 50px;
 }
 
-#features .box i {
+.box i {
   margin-bottom: 10px;
 }
 
@@ -224,7 +225,7 @@ p {
 
 /* testimonials */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 100px;
 }
